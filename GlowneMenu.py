@@ -31,7 +31,7 @@ class Menu:
             match button_input:
                 case 1 :
                     os.system("cls")
-                    print("w Budowie")
+                    print("Kalkulator w Budowie ......")
                 case 2 :
                     os.system("cls")
                     print("w Budowie")
