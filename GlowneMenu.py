@@ -1,5 +1,6 @@
 import os
 class Menu:
+    # Odbieranie danych ktore podał user w MenuStarcie 
     def __init__(self,Boot,User_name_input) :
        self.User=User_name_input
        self.NBoot=Boot
@@ -31,3 +32,14 @@ class Menu:
                 case 1 :
                     os.system("cls")
                     print("w Budowie")
+                case 2 :
+                    os.system("cls")
+                    print("w Budowie")
+                case 3 :
+                    os.system("cls")
+                    print("w Budowie")
+
+                case 4 :
+                    os.system("cls")
+                    print("w Budowie")
+
