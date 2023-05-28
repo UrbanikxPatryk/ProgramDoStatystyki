@@ -44,7 +44,8 @@ def przejscie(User_name_input,Boot):
         match Button_Input : 
             case 1 : 
                 os.system("cls")
-                print("W Budowanie ")
+                M=GlowneMenu.Menu(Boot,User_name_input)
+                M.menu_glowne()
 
             case _ : 
                 os.system("cls")
