@@ -45,7 +45,9 @@ def przejscie(User_name_input,Boot):
             case 1 : 
                 os.system("cls")
                 M=GlowneMenu.Menu(Boot,User_name_input)
+                M.przywitanie()
                 M.menu_glowne()
+                M.button_key()
 
             case _ : 
                 os.system("cls")
