@@ -1,4 +1,5 @@
 import os
+import kalkulator
 class Menu:
     # Odbieranie danych ktore podał user w MenuStarcie 
     def __init__(self,Boot,User_name_input) :
@@ -31,7 +32,10 @@ class Menu:
             match button_input:
                 case 1 :
                     os.system("cls")
-                    print("Kalkulator w Budowie ......")
+                    #print("Kalkulator w Budowie ......")
+                    K=kalkulator.Kalkulaotr(self.NBoot)
+                    K.menu_kalkulatora()
+
                 case 2 :
                     os.system("cls")
                     print("w Budowie")
