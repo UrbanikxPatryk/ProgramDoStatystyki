@@ -33,7 +33,7 @@ class Menu:
                 case 1 :
                     os.system("cls")
                     #print("Kalkulator w Budowie ......")
-                    K=kalkulator.Kalkulaotr(self.NBoot)
+                    K=kalkulator.Kalkulaotr(self.NBoot,self.User)
                     K.menu_kalkulatora()
 
                 case 2 :
