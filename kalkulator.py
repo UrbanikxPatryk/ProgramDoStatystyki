@@ -19,14 +19,32 @@ class Kalkulaotr:
            button_input=int(input(f"{self.NBoot} > wpisz co chcesz zrobic : "))
        except ValueError:
            print(f"{self.NBoot} > upss chyba nie ten klawisz jeżeli masz problem lub potrzebujesz pomocy  wejdzi w dział pomoc")
+           self.help_button()
        else:
            match button_input:
                case 1 : 
                    os.system("cls")
                    print("W budowie")               
                case 2 :
-                   os.system("cls") 
+                   os.system("cls")            #Przyciski nawigacyjne 
                    print("w Budowei ")
-               case _ : 
+               case _ :
+                   os.system("cls") 
                    print(f"{self.NBoot} > nie rozpoznalem przycisku :/ potrzebujesze pomocy ?  ")
+                   self.help_button()
+
                             
+     
+          
+    def help_button(self):
+        
+        
+        try:
+         hellp_button_input=int(input("1 : pomoc \n"))   # centrum pomocy 
+        except ValueError:
+            print("uu nie ten przycisk ")
+
+        else:
+            match hellp_button_input:
+                case 1 : 
+                    print("Centrum pomocy")    

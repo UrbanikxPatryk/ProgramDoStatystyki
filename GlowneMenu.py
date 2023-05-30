@@ -35,6 +35,7 @@ class Menu:
                     #print("Kalkulator w Budowie ......")
                     K=kalkulator.Kalkulaotr(self.NBoot,self.User)
                     K.menu_kalkulatora()
+                    K.button_key()
 
                 case 2 :
                     os.system("cls")
